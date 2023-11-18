@@ -10,7 +10,7 @@
     - name: Build Docker Image
       command: docker build -t java-petstore-application .
       args:
-        chdir: /var/lib/jenkins/workspace/java-petstore-application
+        chdir: /var/lib/jenkins/workspace/Java-Petstore-Application
 
     - name: tag image
       command: docker tag java-petstore-application:latest nomana29/java-petstore-application:latest 
